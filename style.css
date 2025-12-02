@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.shell{
+    border: solid 2px;
+    width: 500px;
+    height: 550px;
+
+}
+/* center contents vertically */
+.components{
+    align-content: center;  
+}
+#heading{
+    text-align: center;
+    border: 2px solid;
+    margin-top: 15px;
+    margin-inline: 20px;
+    height: 20px;
+}
+#display{
+    text-align: center;
+    border: 2px solid;
+    margin: 10px;
+    margin-inline: 20px;
+    height:80px;
+}
+#main{
+    text-align: center;
+    border: 2px solid;
+    margin: 10px;
+    margin-inline: 20px;
+    height:390px;
+    display: flex;
+}
+.work{
+    border: 2px solid;
+    height: auto;
+    flex-grow: 1;
+    margin: 10px;
+}
+#numbers{
+    flex-grow: 5;
+}
